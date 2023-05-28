@@ -1,0 +1,227 @@
+html{
+
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+header{
+    position: relative;
+    z-index: 20;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 72px;
+    margin-right: 72px;
+    
+}
+
+header a{
+    color: #000000;
+}
+
+.logo-img{
+    height: 65px;
+    width: 65px;
+}
+
+.header-img-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav a {
+    margin: 0px 65px;
+}
+
+.nav-2, .nav-4{
+    text-decoration: underline;
+}
+
+.profile-logo{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+main{
+
+}
+
+.big-logo-img{
+    width: 100%;
+}
+
+.table-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.table-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.table-2 table td {
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.div-romb-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.div-romb {
+    position: relative;
+    
+}   
+
+.small-romb {
+    position: absolute;
+    left: 30px;
+    top: 255px;
+}
+
+.watch {
+    position: absolute;
+    left: 55px;
+    top: 268px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.watch-1{
+    color: #ECECEC;
+}
+
+
+#myDiv {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 724;
+    font-size: 20px;
+    line-height: 17px;
+    font-variant: all-small-caps;
+    color: #000000;
+    margin:30px 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    width: 0px;
+    height: 0px;
+}
+
+#myDiv.visible{
+    width: 100%;
+    height: 215px;
+}
+
+
+.text{
+
+}
+
+button{
+    display: inline-block;
+    font-family: 'Montserrat';
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 4px 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.40rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+footer{
+    background: #212529;
+    height: 150px;
+}
+
+.footer-1{
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.footer-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-div-2{
+    display: flex;
+    float: right;
+    margin-right: 45px;
+    color: #fff;
+
+}
+
+.footer-div-pay-system{
+    position: relative;
+    left: -75px;
+}
+
+
